@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050608"/>
+  <g opacity="0.18">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200" stroke="#39A7FF"/>
+    <path d="M160 0V630M320 0V630M480 0V630M640 0V630M800 0V630M960 0V630" stroke="#35F29A"/>
+  </g>
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)"/>
+  <text x="120" y="230" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="72" font-weight="700">Gabriele Baiamonte</text>
+  <text x="120" y="305" fill="#A8B3C7" font-family="Arial, sans-serif" font-size="34">Computer Engineering - Cybersecurity - Web Systems</text>
+  <text x="120" y="410" fill="#35F29A" font-family="Courier New, monospace" font-size="32">$ build secure, modern, scalable software</text>
+</svg>
