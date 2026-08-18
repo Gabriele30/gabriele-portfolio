@@ -17,6 +17,7 @@ const navItems = [
 ];
 
 const requestLink = { href: "#richiedi", label: "Richiedi un servizio" };
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ export function Navbar() {
           >
             <span className="flex size-12 shrink-0 items-center justify-center rounded-md border border-terminal/20 bg-terminal/[0.035] shadow-[0_0_24px_rgba(53,242,154,0.12)] transition group-hover:border-electric/40 group-hover:bg-electric/[0.04] group-hover:shadow-[0_0_32px_rgba(53,242,154,0.22)]">
               <img
-                src="/logoultimale-clean.png"
+                src={`${basePath}/logoultimale-clean.png`}
                 alt=""
                 aria-hidden="true"
                 className="size-[3.4rem] object-contain drop-shadow-[0_0_12px_rgba(53,242,154,0.35)]"

@@ -16,7 +16,8 @@ const skillBadges = [
 ];
 
 const githubUrl = "https://github.com/Gabriele30";
-const cvUrl = "/cv.pdf";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const cvUrl = `${basePath}/cv.pdf`;
 
 export function HeroSection() {
   return (
